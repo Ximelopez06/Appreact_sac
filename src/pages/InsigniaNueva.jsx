@@ -27,9 +27,8 @@ class InsigniaNueva extends React.Component{
     render(){
         return(
             <div>
-                <Navbar/>
                 <div className='header'>
-                    <img className='img-fluid' src={LogoHeader} alt='Logo'/>
+                <img className='img-fluid' src={LogoHeader} alt='Logo'/>
                 </div>
                 <div className='container'>
                     <div className='row'>
@@ -50,6 +49,7 @@ class InsigniaNueva extends React.Component{
                         </div>
 
                     </div>
+                    
                 </div>
             </div>
         )
